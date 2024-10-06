@@ -56,7 +56,7 @@ export default hopeTheme({
   navbarLayout: {
     start: ["Brand"],
     center: ["Links"],
-    end: ["SocialLink", "Repo", "Search"],
+    end: ["SocialLink", "Repo", "Outlooks" "Search"],
   },
   // 是否在向下滚动时自动隐藏导航栏
   // navbarAutoHide: "always",
@@ -78,7 +78,7 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       GitHub: "https://github.com/qq1024783094",
-      Wechat: "https://img.newzone.top/wechat.svg",
+      Wechat: "/wechat.svg",
       Email: "mailto:1024783094@qq.com",
     },
   },
