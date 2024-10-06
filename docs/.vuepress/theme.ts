@@ -78,8 +78,8 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       GitHub: "https://github.com/qq1024783094",
-      Wechat: "/Wechat.svg",
-      Email: "mailto:1024783094@qq.com",
+      Wechat: "/WeChat.svg",
+      Email: "mail:1024783094@qq.com",
     },
   },
 
