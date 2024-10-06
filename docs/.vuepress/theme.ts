@@ -4,29 +4,29 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   // 主题选项：https://theme-hope.vuejs.press/zh/config/theme/layout.html
-  hostname: "https://newzone.top",
+  hostname: "https://note.chenliuxu.cn/",
   // 公用 CDN 在部分浏览器中可能无法正确显示图标。2024.07 开始，uBlock Origin 将拦截公有 CDN 的 js 请求。
   // https://icon-sets.iconify.design/
   iconAssets: "iconify",
   author: {
-    name: "LearnData",
-    url: "https://newzone.top",
+    name: "薯条笔记",
+    url: "https://note.chenliuxu.cn/",
   },
 
   favicon: "/favicon.ico",
   logo: "/logo.svg",
 
   // 网站文章的版权声明
-  license: "CC BY-NC-ND 4.0",
+  license: "Copyright © STBB ",
 
   // copyright 默认为 Copyright © <作者>
   copyright: `
-  版权声明：自由转载 - 非商用 - 非衍生 - 保持署名<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans" target="_blank" rel="noopener noreferrer">（创意共享 4.0 许可证）</a>|
-  Copyright © 2023-present LearnData</a>
+  版权声明：自由转载 - 非商用 - 非衍生
+  Copyright © 2024-present LearnData</a>
   `,
   displayFooter: true,
   // 页脚，支持使用 HTMLString 以显示备案信息等
-  // footer: `CC BY-NC-ND 4.0 Licensed`,
+  // footer: `Copyright © STBB`,
 
   // 是否全局启用路径导航
   breadcrumb: false,
@@ -42,7 +42,7 @@ export default hopeTheme({
   fullscreen: true,
 
   // 默认为 GitHub. 同时也可以是一个完整的 URL
-  repo: "rockbenben/LearnData",
+  repo: "qq1024783094/qq1024783094.github.io",
   // 自定义仓库链接文字。默认从 `repo` 中自动推断为 "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
   repoLabel: "GitHub",
   // 是否在导航栏内显示仓库链接，默认为 `true`
@@ -72,23 +72,19 @@ export default hopeTheme({
   // 主题功能选项：https://theme-hope.vuejs.press/zh/config/theme/feature.html
   blog: {
     articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
-    name: "清顺",
+    name: "薯条爸爸",
     avatar: "/avatar_self.webp",
-    description: "迷信新工具，热衷于研究开源软件、心理学理论，定期分享探索成果",
+    description: "成绩差的同学文具最多🤣。",
     intro: "/intro.html",
     medias: {
-      GitHub: "https://github.com/rockbenben",
-      Zhihu: "https://www.zhihu.com/people/qingwhat",
-      少数派: { icon: "https://newzone.top/icons/sspai.svg", link: "https://sspai.com/u/zqj05i4v/posts" },
+      GitHub: "https://github.com/qq1024783094",
       Wechat: "https://img.newzone.top/wechat.svg",
-      Email: "mailto:learndata@newzone.top",
-      Discord: "https://discord.gg/PZTQfJ4GjX",
-      RSS: "/rss.xml",
+      Email: "mailto:1024783094@qq.com",
     },
   },
 
   // 隐藏打印按钮
-  // print: false,
+  print: true,
 
   plugins: {
     blog: true,
