@@ -1,6 +1,6 @@
 ---
 article: false
-title: LearnData
+title: 薯条笔记
 icon: fa6-solid:book-open-reader
 ---
 
@@ -14,7 +14,7 @@ icon: fa6-solid:book-open-reader
 
 更重要的是，**笔记里的知识并不属于你，只有经过消化、应用，才会成为我们的财富。**
 
-为此，我基于 VuePress 和 vuepress-theme-hope 构建了 LearnData 开源笔记，将我所有的笔记与文章聚合到同一页面形成知识库，便于集中管理和分享。
+为此，我基于 VuePress 和 vuepress-theme-hope 构建了薯条笔记,fork:LearnData 开源笔记，将我所有的笔记与文章聚合到同一页面形成知识库，便于集中管理和分享。
 
 ![](https://img.newzone.top/2022-08-22-19-28-25.png?imageMogr2/thumbnail/600x "笔记 + 文章 = LearnData 知识库")
 
