@@ -4,8 +4,7 @@ cursor.style.position = 'absolute';
 cursor.style.width = '10px';
 cursor.style.height = '10px';
 cursor.style.borderRadius = '50%';
-cursor.style.backgroundColor = 'rgba(255, 255, 255, 0.5)';
-cursor.style.boxShadow = '0 0 10px 5px rgba(255, 255, 255, 0.8)';
+cursor.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
 cursor.style.pointerEvents = 'none';
 document.body.appendChild(cursor);
 
