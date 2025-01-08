@@ -13,8 +13,8 @@ export default hopeTheme({
     url: "https://note.chenliuxu.cn/",
   },
 
-  favicon: "doc/.vuepress/public/icons/favicon.ico",
-  logo: "doc/.vuepress/public/icons/favicon/logo.svg",
+  favicon: "/favicon.ico",
+  logo: "/logo.svg",
 
   // 网站文章的版权声明
   license: "Copyright © 猪圈 ",
@@ -72,7 +72,7 @@ export default hopeTheme({
   // 主题功能选项：https://theme-hope.vuejs.press/zh/config/theme/feature.html
   blog: {
     articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
-    name: "薯条爸爸",
+    name: "猪猪",
     avatar: "/avatar_self.webp",
     description: "成绩差的同学文具最多🤣。",
     intro: "/intro.html",
