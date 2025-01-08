@@ -13,8 +13,8 @@ export default hopeTheme({
     url: "https://note.chenliuxu.cn/",
   },
 
-  favicon: "/favicon.ico",
-  logo: "/logo.svg",
+  favicon: "doc/.vuepress/public/icons/favicon.ico",
+  logo: "doc/.vuepress/public/icons/favicon/logo.svg",
 
   // 网站文章的版权声明
   license: "Copyright © 猪圈 ",
