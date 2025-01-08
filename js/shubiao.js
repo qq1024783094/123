@@ -1,10 +1,10 @@
 // 创建鼠标发光特效元素
 const cursor = document.createElement('div');
 cursor.style.position = 'absolute';
-cursor.style.width = '10px';
-cursor.style.height = '10px';
+cursor.style.width = '2px';
+cursor.style.height = '2px';
 cursor.style.borderRadius = '50%';
-cursor.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+cursor.style.backgroundColor = 'rgba(0, 0, 0, 0.1)';
 cursor.style.pointerEvents = 'none';
 document.body.appendChild(cursor);
 
