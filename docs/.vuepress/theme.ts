@@ -9,7 +9,7 @@ export default hopeTheme({
   // https://icon-sets.iconify.design/
   iconAssets: "iconify",
   author: {
-    name: "薯条笔记",
+    name: "猪猪笔记",
     url: "https://note.chenliuxu.cn/",
   },
 
@@ -17,9 +17,9 @@ export default hopeTheme({
   logo: "/logo.svg",
 
   // 网站文章的版权声明
-  license: "Copyright © STBB ",
+  license: "Copyright © 猪圈 ",
 
-  // copyright 默认为 Copyright © <作者>
+  // copyright 默认为 Copyright © <猪猪>
   copyright: `
   版权声明：自由转载 - 非商用 - 非衍生
   Copyright © 2024-present LearnData</a>
@@ -79,7 +79,7 @@ export default hopeTheme({
     medias: {
       GitHub: "https://github.com/qq1024783094",
       Wechat: "/WeChat.svg",
-      Email: "mail:1024783094@qq.com",
+      Email: "mailto:1024783094@qq.com",
     },
   },
 
