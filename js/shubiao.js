@@ -1,8 +1,8 @@
 // 创建鼠标发光特效元素
 const cursor = document.createElement('div');
 cursor.style.position = 'absolute';
-cursor.style.width = '20px';
-cursor.style.height = '20px';
+cursor.style.width = '10px';
+cursor.style.height = '10px';
 cursor.style.borderRadius = '50%';
 cursor.style.backgroundColor = 'rgba(255, 255, 255, 0.5)';
 cursor.style.boxShadow = '0 0 10px 5px rgba(255, 255, 255, 0.8)';
@@ -32,7 +32,7 @@ document.addEventListener('mousemove', function (e) {
     star.style.top = e.pageY + 'px';
     // 后续渐隐等相关代
     const fadeOut = function () {
-        star.style.opacity = parseFloat(star.style.opacity) - 0.05;
+        star.style.opacity = parseFloat(star.style.opacity) - 0.03;
         if (parseFloat(star.style.opacity) > 0) {
             requestAnimationFrame(fadeOut);
         } else {
