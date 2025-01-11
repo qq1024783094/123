@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/甜甜圈海报字体.woff2');
+}
+body {
+    font-family: 'MyCustomFont', sans-serif;
+}
